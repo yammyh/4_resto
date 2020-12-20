@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 1500px;
+	font-family:'Arvo', serif;
+}
+.contents{
+	width: 1100px;
+	margin:0 auto;
+	padding-top: 80px;
+	padding-bottom:120px;
+}
+.filter-black{
+	background-color: rgba(0,0,0,0.5);
+    height:680px;
+}
+.fv{
+	height: 680px;
+	background-image: url("img/fv.jpg");
+	background-size:cover;
+}
+
+.fv .contents{
+	padding-top:323px;
+	text-align: center;
+}
+
+h1{
+	font-size:100px;
+	color:#fff;
+}
+.fv p{
+	font-family: 16px;
+	color:#fff;
+}
+header{
+	width: 100%;
+	height: 110px;
+	position:absolute;
+	top:0;
+	z-index: 10;
+	background-color: #DBDBDB;
+}
+.head{
+	max-width: 1100px;
+	margin:0 auto;
+}
+.head img{
+	padding-top:40px;
+}
+.header-menu{
+	float:right;
+	padding:48px 0;
+}
+.header-menu li{
+	float:left;
+	padding-left:50px;
+}
+.header-menu a{
+	color:#3b3b3b;
+}
+.header-menu ul::after{
+	clear:both;
+	contents:"";
+}
+
+/*----------------ここからメニュ-------------*/
+.menu{
+	/*position:relative;*/
+	height: 500px;
+	border-top:solid 4px #f34949;
+}
+.menu-ribbon{
+	margin:0 auto;
+	width: 156px;
+	position:relative;
+}
+.text{
+	width: 92px;
+	color:white;
+	position:absolute;
+	z-index:1;
+	text-align: center;
+	top:23px;
+	left:32px;
+	}
+.ribbon{
+	border-style:solid;
+	border-width:7px 78px 13px;
+	border-color:#f34949 #f34949 transparent;
+	height: 50px;
+	background-color:transparent;
+}
+.flex {
+display: flex;
+display: -ms-flexbox;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+width: 500px;
+padding:0 100px 60px 0;
+	float:left;
+}
+.flex:nth-child(even){
+	padding-right:0;
+}
+hr.tab-r-line {
+position: relative;
+top: calc(50% - 1px);
+margin: 0 10px;
+border: none;
+border-top: solid 1px #CCC;
+}
+.name{
+	letter-spacing: 0.1em;
+}
+.tab-reader-box2 {
+flex: auto;
+}
+.tab-reader-box3{
+	line-height:32px;
+}
+.material{
+	font-size: 12px;
+	font-style: italic;
+	color:#b7b7b7;
+}
+.cb{
+	clear:both;
+	contents:"";
+}
+.button{
+	margin:0 auto ;
+	border:solid 2px #D7D7D7;
+	padding:11px;
+	width: 116px;
+}
+.loadmore{
+	border-right:solid 2px #D7D7D7;
+	color:#d7d7d7;
+	width: 80px;
+	padding-right:11px;
+	float:left;
+}
+.button img{
+	width: 12px;
+	padding-left:11px;
+}
+/*----------------ここからおすすめメニュ-------------*/
+.featured-title{
+	padding-top:120px;
+	display: flex;
+}
+.border{
+	width: 200px;
+	border-top:solid 1px #e5e3e3;
+	margin:7px 10px 0 10px;
+
+	
+}
+.free{
+	flex:auto;
+}
+.dots{
+	display: flex;
+}
+.dot{
+	width: 10px;
+	height: 10px;
+	background-color:gray;
+	margin:3px 11px 3px 0px;
+	border-radius:50%;
+}
+.dot:last-child{
+	margin-right:0;
+}
